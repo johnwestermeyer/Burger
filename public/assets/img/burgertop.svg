@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="93.133331mm"
+   height="38.099998mm"
+   viewBox="0 0 93.133331 38.099998"
+   version="1.1"
+   id="svg159"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="burgertop.svg">
+  <defs
+     id="defs153" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="178.85714"
+     inkscape:cy="-113.71428"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1267"
+     inkscape:window-height="1040"
+     inkscape:window-x="156"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata156">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-58.510715,-178.25357)">
+    <g
+       id="g81"
+       transform="matrix(0.26458333,0,0,0.26458333,54.277382,171.90357)">
+      <g
+         id="g79">
+        <path
+           d="M 192,24 C 48.496,24 16,95.104 16,168 H 368 C 368,95.104 336,24 192,24 Z M 80,136 c -8.832,0 -16,-7.168 -16,-16 0,-8.832 7.168,-16 16,-16 8.832,0 16,7.168 16,16 0,8.832 -7.168,16 -16,16 z m 48,-48 c -8.832,0 -16,-7.168 -16,-16 0,-8.832 7.168,-16 16,-16 8.832,0 16,7.168 16,16 0,8.832 -7.168,16 -16,16 z m 64,48 c -8.832,0 -16,-7.168 -16,-16 0,-8.832 7.168,-16 16,-16 8.832,0 16,7.168 16,16 0,8.832 -7.168,16 -16,16 z m 64,-48 c -8.832,0 -16,-7.168 -16,-16 0,-8.832 7.168,-16 16,-16 8.832,0 16,7.168 16,16 0,8.832 -7.168,16 -16,16 z m 48,48 c -8.832,0 -16,-7.168 -16,-16 0,-8.832 7.168,-16 16,-16 8.832,0 16,7.168 16,16 0,8.832 -7.168,16 -16,16 z"
+           id="path77" />
+      </g>
+    </g>
+  </g>
+</svg>

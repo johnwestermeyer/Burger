@@ -1,38 +1,94 @@
-<h1>Burgers!</h1>
+<h1 class="py-1">Burgers!</h1>
+<div class="container">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="bun" version="1.1" viewBox="0 0 93.133 38.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-58.511 -178.25)">
+  <g transform="matrix(.26458 0 0 .26458 54.277 171.9)">
+   <path d="m192 24c-143.5 0-176 71.104-176 144h352c0-72.896-32-144-176-144zm-112 112c-8.832 0-16-7.168-16-16s7.168-16 16-16 16 7.168 16 16-7.168 16-16 16zm48-48c-8.832 0-16-7.168-16-16s7.168-16 16-16 16 7.168 16 16-7.168 16-16 16zm64 48c-8.832 0-16-7.168-16-16s7.168-16 16-16 16 7.168 16 16-7.168 16-16 16zm64-48c-8.832 0-16-7.168-16-16s7.168-16 16-16 16 7.168 16 16-7.168 16-16 16zm48 48c-8.832 0-16-7.168-16-16s7.168-16 16-16 16 7.168 16 16-7.168 16-16 16z"/>
+  </g>
+ </g>
+</svg>
 
-<h2>Burgers to eat!</h2>
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Burgers that been ate</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Add a Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="burg">Burger Name:</label>
-    <input type="text" id="burg" name="burger_name">
+  <div class="row py-1 tomato">
+      <div class="col-6">
+        <h2>Burgers to eat!</h2>
+      </div>
+      <div class="col-6">
+        <h2>Burgers that been ate</h2>
+      </div>
+      
   </div>
+    <div class="row py-1 lettuce">
+      <div class="col-6">
+      <ul>
+        {{#each burgers}}
+          {{#unless devoured}}
+            {{> burgers/burger-block devoured=true}}
+          {{/unless}}
+        {{/each}}
+      </ul>
+      </div>
 
-  <div class="form-group">
-    <label for="devo">Devoured?</label><br>
-    <input type="radio" name="devo" value="1" checked> Devoured!<br>
-    <input type="radio" name="devo" value="0"> Not Devoured :(
-  </div>
 
-  <button type="submit">Add Burger</button>
-</form>
+
+      <div class="col-6">
+      <ul>
+        {{#each burgers}}
+          {{#if devoured}}
+            {{> burgers/burger-block devoured=false}}
+          {{/if}}
+        {{/each}}
+      </ul>
+      </div>
+    </div>
+
+<div class="row py-1 addburg">
+  <h2>Add a Burger</h2>
+  <form class="create-form">
+
+    <div class="form-group">
+      <label for="burg">Burger Name:</label>
+      <input type="text" id="burg" name="burger_name">
+    </div>
+
+    <div class="form-group">
+      <label for="devo">Devoured?</label><br>
+      <input type="radio" name="devo" value="1" checked> Devoured!<br>
+      <input type="radio" name="devo" value="0"> Not Devoured :(
+    </div>
+
+    <button type="submit">Add Burger</button>
+  </form>
+</div>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="bun" version="1.1" viewBox="0 0 93.133 12.7" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-59.267 -141.82)">
+  <g transform="matrix(.26458 0 0 .26458 55.033 59.267)">
+   <path d="m16 312v16c0 17.68 14.32 32 32 32h288c17.68 0 32-14.32 32-32v-16z"/>
+  </g>
+ </g>
+</svg>
+
+</div>
+
+
+{{!-- burger bun svg sourced from https://www.flaticon.com/free-icon/cheese-burger_620272 --}}
